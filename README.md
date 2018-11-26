@@ -20,4 +20,4 @@ User interface is added in v9, where you can choose options from [1-6] and [0] f
 
 However during the while(1) statements if you press any symbol different than a number, you can assume what will happen.
 
-parallelport_short.c does the same thing as parallelport_v9.c - it is just 10 lines
+parallelport_short.c lights up the LEDs in configuration 1458 with just 10 lines of code. The configuration 1458 is the binary number 10011001 / Hex 0x99 / Dec 153
