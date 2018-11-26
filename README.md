@@ -2,8 +2,11 @@
 Power ON/OFF LEDs using the parallel port in C
 
 The point of this code is to use the parallel port to light up LEDs that are connected to it.
+
 You can read more here: https://wndlpt.sourceforge.io/lpt/
+
 You can read more about parallel ports here: https://en.wikipedia.org/wiki/Parallel_port
+
 
 User interface is added in v9, where you can choose options from [1-6] and [0] for exit:
 
