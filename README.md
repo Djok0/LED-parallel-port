@@ -12,6 +12,6 @@ User interface is added in v9, where you can choose options from [1-6] and [0] f
 4. Use current configuration [1458] (of course you can set your own configuration, current one is 1458)
 5. Turn ON all the LEDs
 6. Turn OFF all the LEDs
-0. Exit
+0. Exit 
 
 However during the while(1) statements if you press any symbol different than a number, you can assume what will happen.
