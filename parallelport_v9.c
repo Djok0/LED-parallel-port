@@ -10,7 +10,7 @@ int checkAccess();
 int menu();
 int binaryToDecimal();
 int decimalNumber();
-int userChoise();
+int userChoice();
 int turnOnConfiguration();
 int turnOn();
 int turnOff();
@@ -33,7 +33,7 @@ int checkAccess()
 
 int menu()
 {
-	int choise;
+	int choice;
 	while(1)
 	{
 		printf("--------------Menu--------------\n");
@@ -46,9 +46,9 @@ int menu()
 		printf("|6. Turn LED OFF               |\n");
 		printf("|0. Exit                       |\n");
 		printf("--------------------------------\n");
-		printf("Enter your choise: [1-6] or [0] to exit: ");
-		scanf("%d", &choise);
-		switch(choise)
+		printf("Enter your choice: [1-6] or [0] to exit: ");
+		scanf("%d", &choice);
+		switch(choice)
 		{
 			case 0: printf("Bye!\n");
 				exit(0);
@@ -60,7 +60,7 @@ int menu()
 			case 2: decimalNumber();
 			break;
 
-			case 3: userChoise();
+			case 3: userChoice();
 			break;
 
 			case 4: turnOnConfiguration();
@@ -106,7 +106,7 @@ int decimalNumber()
 	outb(x,DATA);
 }
 
-int userChoise() 
+int userChoice() 
 {
 	int x;
 	unsigned char LED;
