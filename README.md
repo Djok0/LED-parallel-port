@@ -6,6 +6,7 @@ You can read more here: https://wndlpt.sourceforge.io/lpt/
 You can read more about parallel ports here: https://en.wikipedia.org/wiki/Parallel_port
 
 User interface is added in v9, where you can choose options from [1-6] and [0] for exit:
+
 0. Exit
 1. Binary number (there is a converter added that shows you the number in decimal)
 2. Decimal number
