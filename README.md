@@ -1,5 +1,5 @@
 # LED-parallel-port
-Light up LEDs using the parallel port in C
+Power ON/OFF LEDs using the parallel port in C
 
 The point of this code is to use the parallel port to light up LEDs that are connected to it.
 You can read more here: https://wndlpt.sourceforge.io/lpt/
